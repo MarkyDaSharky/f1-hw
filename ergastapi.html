@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/ergast.js" defer></script>
+<title>f1 Driver Standings</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">F1 api</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">F1 cars</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <h1>F1 Driver standings</h1>
+          <div class = "flex" style="display: flex; align-items: center; justify-content: center;">
+              <form action="" id="f1Form">
+                  <label for="season">For which year would you like information on?</label>
+                  <input type="text" name="season" id="season">
+                  <label for="round">Which round?</label>
+                  <input type="text" name="round" id="round">
+                  <input type="submit" value="Search">
+              </form>
+              <ul id='f1List'>
+          </div>
+          <table class="table">
+              <thead></thead>
+              <tbody></tbody>
+          </table>
+
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
